@@ -1,0 +1,51 @@
+.productViewPage{
+  display: grid;
+  grid-template-columns: 1fr 5fr 6fr ;
+grid-template-areas: 
+"head head head"
+"side1 side2 side3"
+"comment comment comment"
+;
+
+  border:1px solid black;
+
+}
+.comments{
+  grid-area: comment;
+}
+.hoverImgContainer{
+  border:1px solid black;
+  grid-area: side1;
+  background-color: rgb(222, 159, 247);
+  
+  
+}
+.header{
+  grid-area: head;
+  
+}
+.hoverImgContainer > div{
+  border:1px solid black;
+  
+}
+.bigImage{
+  place-content:center;
+  border:1px solid black;
+  grid-area: side2;
+  background-color: rgb(222, 159, 247);
+  
+  
+}
+.bigImage > img{
+  width: 100%;
+}
+.details{
+  border:1px solid black;
+  grid-area: side3;
+  
+  background-color: rgb(222, 159, 247);
+  
+}
+.amount{
+  font-size: 40px;
+}

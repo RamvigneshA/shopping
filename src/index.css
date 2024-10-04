@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.dropdownElements:hover{
+  background-color: rgb(222, 159, 247);
+}
+.shoppingList{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items:center ;
+  align-items: center;
+}

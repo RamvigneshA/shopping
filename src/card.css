@@ -1,0 +1,21 @@
+.product-card {
+  border: 1px solid #9c8d8d;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(222, 159, 247);
+  width: 300px;
+  height: auto; /* Set the height to auto to allow for dynamic content */
+  display: flex; /* Use flexbox for better layout control */
+  flex-direction: column; /* Arrange elements vertically */
+  align-items: center; /* Center elements horizontally */
+}
+
+.product-image {
+  width: 100%; /* Make the image take up the full width of the card */
+  height: 200px;
+  object-fit: contain;
+}
+
+.product-details {
+  text-align: center; /* Center the details text horizontally */
+}
