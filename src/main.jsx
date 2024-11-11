@@ -9,7 +9,6 @@ import {
   createRoutesFromElements,
   Navigate,
   Route,
-  Router,
   RouterProvider,
 } from 'react-router-dom';
 
