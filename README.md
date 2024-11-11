@@ -4,8 +4,8 @@
 A basic e-commerce application built with React for the frontend and JSON place holder API.
 ## Screenshots
 
-![App Screenshot](https://github.com/RamvigneshA/shopping/blob/master/Screenshot%20from%202024-11-11%2017-35-34.png?raw=true)
 ![App Screenshot](https://github.com/RamvigneshA/shopping/blob/master/Screenshot%20from%202024-11-11%2017-36-15.png?raw=true)
+![App Screenshot](https://github.com/RamvigneshA/shopping/blob/master/Screenshot%20from%202024-11-11%2017-35-34.png?raw=true)
 
 
 ## Tech Stack
